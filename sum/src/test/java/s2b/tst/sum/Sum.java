@@ -6,6 +6,9 @@ public class Sum {
 		if(d<0) {
 			throw new IllegalArgumentException();//comando do desenvolvedor para lançar uma Exception 
 		}
+		if(e<0) {
+			throw new IllegalArgumentException();//comando do desenvolvedor para lançar uma Exception 
+		}
 		return d + e;
 	
 	}
