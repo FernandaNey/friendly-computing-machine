@@ -8,13 +8,13 @@ public class SumTeste {
 	
 	// Especifica uma Expected que o Testador está esperando;
 	@Test(expected=IllegalArgumentException.class)
-	public void testFirstNumberIsNegative() {
+	public void testFirstNumberIsNegativeGiveException() {
 		Sum.sum(-10,0);
 	}
 	
 	// Especifica uma Expected que o Testador está esperando;
 		@Test(expected=IllegalArgumentException.class)
-		public void testSecondNumberIsNegative() {
+		public void testSecondNumberIsNegativeGiveException() {
 			Sum.sum(0,-10);
 		}
 	
